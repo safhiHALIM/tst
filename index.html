@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="signabrid-icon" href="logo/miniLogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Signabrid</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#"
+      ><img src="./logo/Logo_navebar.png" alt="" class="logo"
+    /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#Accueil" onclick="loadSection('Accueil')">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about" onclick="loadSection('about')">Smart Call</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services" onclick="loadSection('services')">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Autoclave" onclick="loadSection('Autoclave')">Autoclave</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="elfsight-app-85b0a4d4-9564-4c4b-bb70-8fcb5c384d05" data-elfsight-app-lazy></div>
+    <div class="container" id="content"></div>
+    
+
+
+
+
+    
+    <footer class="footer bg-dark text-light pt-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 mb-4">
+                  <h5 class="text-uppercase">Contactez-nous</h5>
+                  <form id="contactForm" class="form-group">
+                      <div class="form-row">
+                          <div class="form-group col-md-6">
+                              <input type="text" class="form-control" id="nom" placeholder="Nom" required>
+                          </div>
+                          <div class="form-group col-md-6">
+                              <input type="text" class="form-control" id="prenom" placeholder="Prénom" required>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="entreprise" placeholder="Entreprise" required>
+                      </div>
+                      <div class="form-row">
+                          <div class="form-group col-md-6">
+                              <input type="text" class="form-control" id="phone" placeholder="Téléphone" required>
+                          </div>
+                          <div class="form-group col-md-6">
+                              <input type="email" class="form-control" id="mail" placeholder="Email" required>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control" id="subject" placeholder="Sujet" required>
+                      </div>
+                      <div class="form-group">
+                          <textarea class="form-control" id="text" rows="3" placeholder="Votre message" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Envoyer</button>
+                  </form>
+              </div>
+  
+              <div class="col-md-6 mb-4">
+                  <h4>
+                    Optimisez la communication et la stérilisation.
+                    Solutions fiables pour vos systèmes d'appel infirmier et autoclaves.
+                </h4>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                  <h6 class="text-uppercase">Nos réseaux sociaux :</h6>
+                  
+                  <br>
+                  <ul class="social-icons list-inline">
+                      <li class="list-inline-item">
+                          <a href="#" class="text-light">
+                              <i class="fab fa-facebook fa-lg"></i>
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="#" class="text-light">
+                              <i class="fab fa-twitter fa-lg"></i>
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="#" class="text-light">
+                              <i class="fab fa-instagram fa-lg"></i>
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="https://www.linkedin.com/company/signabrid-smartcall/" class="text-light">
+                              <i class="fab fa-linkedin fa-lg"></i>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom text-center py-3">
+          <p class="mb-0">&copy; 2024 Votre Entreprise. Tous droits réservés.</p>
+      </div>
+      
+  </footer>
+
+      <script src="https://static.elfsight.com/platform/platform.js" async></script>
+      <script src="script.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js">
+      </script>
+      
+      <script src="admin.js"></script>
+      
+      
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+
+  
+</body>
+</html>
